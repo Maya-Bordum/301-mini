@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1080.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.frontendclient.Main">
+    <ImageView fitHeight="600.0" fitWidth="1080.0" pickOnBounds="true">
+        <image>
+            <Image url="https://media.discordapp.net/attachments/889864141534285864/902528602619387904/JeopartyBG.png?width=1135&amp;height=638" />
+        </image>
+    </ImageView>
+    <Circle fill="#fff6e2" layoutX="174.0" layoutY="177.0" radius="97.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+        <effect>
+            <InnerShadow choke="0.07" height="10.0" offsetY="5.0" radius="4.5" width="10.0">
+                <color>
+                    <Color red="0.5803921818733215" green="0.2549019753932953" blue="0.062745101749897" />
+                </color>
+            </InnerShadow>
+        </effect></Circle>
+   <Circle fill="#fff6e2" layoutX="514.0" layoutY="385.0" radius="97.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+      <effect>
+         <InnerShadow choke="0.07" height="10.0" offsetY="5.0" radius="4.5" width="10.0">
+            <color>
+               <Color red="0.5803921818733215" green="0.2549019753932953" blue="0.062745101749897" />
+            </color>
+         </InnerShadow>
+      </effect>
+   </Circle>
+   <Circle fill="#fff6e2" layoutX="853.0" layoutY="184.0" radius="97.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+      <effect>
+         <InnerShadow choke="0.07" height="10.0" offsetY="5.0" radius="4.5" width="10.0">
+            <color>
+               <Color red="0.5803921818733215" green="0.2549019753932953" blue="0.062745101749897" />
+            </color>
+         </InnerShadow>
+      </effect>
+   </Circle>
+   <Text fill="#5d1700" layoutX="82.0" layoutY="343.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Player 1" textAlignment="CENTER">
+      <font>
+         <Font name="Arial Bold" size="48.0" />
+      </font>
+   </Text>
+   <Text fill="#5d1700" layoutX="422.0" layoutY="550.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Player 2" textAlignment="CENTER">
+      <font>
+         <Font name="Arial Bold" size="48.0" />
+      </font>
+   </Text>
+   <Text fill="#5d1700" layoutX="765.0" layoutY="344.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Player 3" textAlignment="CENTER">
+      <font>
+         <Font name="Arial Bold" size="48.0" />
+      </font>
+   </Text>
+   <Text fill="#5d1700" layoutX="134.0" layoutY="387.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Host" textAlignment="CENTER">
+      <font>
+         <Font name="Arial Bold" size="36.0" />
+      </font>
+   </Text>
+</AnchorPane>

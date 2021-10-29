@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.frontendclient.Main">
+    <Rectangle id="background" arcHeight="5.0" arcWidth="5.0" fill="#fb7c2c" height="600" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1080" AnchorPane.leftAnchor="0.0" />
+    <Text fx:id="questionText" fill="WHITE" layoutX="204.0" layoutY="240.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Question" textAlignment="CENTER" wrappingWidth="697.9999389648438">
+        <font>
+            <Font size="38.0" />
+        </font>
+    </Text>
+    <Button fx:id="backButton" cancelButton="true" layoutX="40.0" layoutY="42.0" mnemonicParsing="false" style="-fx-background-color: #FFF6E2;" text="Back" textFill="#944110" wrapText="true">
+        <font>
+            <Font size="20.0" />
+        </font>
+        <cursor>
+            <Cursor fx:constant="HAND" />
+        </cursor>
+    </Button>
+    <Text id="CatagoryQuestionText" fill="WHITE" layoutX="195.0" layoutY="170.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Catagory Question Text" textAlignment="CENTER" wrappingWidth="697.9999389648438">
+        <font>
+            <Font size="54.0" />
+        </font>
+    </Text>
+    <Button fx:id="backButton1" cancelButton="true" layoutX="456.0" layoutY="440.0" mnemonicParsing="false" onAction="#backButtonAction" prefHeight="64.0" prefWidth="176.0" style="-fx-background-color: #FFF6E2;" text="Answer" textFill="#944110" wrapText="true">
+        <font>
+            <Font size="20.0" />
+        </font>
+        <cursor>
+            <Cursor fx:constant="HAND" />
+        </cursor>
+    </Button>
+</AnchorPane>
