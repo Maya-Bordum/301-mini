@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="frontendminiproject.frontendminiprojectdina.Main">
+         <Rectangle id="background" arcHeight="5.0" arcWidth="5.0" height="600" stroke="#974c4c" strokeType="INSIDE" strokeWidth="0.0" width="1080">
+      <fill>
+         <LinearGradient endX="0.5285714285714286" endY="1.0" startX="0.47619047619047616">
+            <stops>
+               <Stop>
+                  <color>
+                     <Color red="0.5803921818733215" green="0.2549019753932953" blue="0.062745101749897" />
+                  </color>
+               </Stop>
+               <Stop offset="1.0">
+                  <color>
+                     <Color red="0.9843137264251709" green="0.48627451062202454" blue="0.1725490242242813" />
+                  </color>
+               </Stop>
+            </stops>
+         </LinearGradient>
+      </fill></Rectangle>
+   <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c15d21" height="93.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1080.0" />
+         <Rectangle id="teamBackground" fill="#fb7c2c" height="600.0" layoutX="-13.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="243.0" />
+         <Button fx:id="backButtonJeoparty" alignment="CENTER" layoutX="11.0" layoutY="15.0" onAction="#handleButtonAction" prefHeight="23.0" prefWidth="54.0" style="-fx-background-color: #FFF6E2;" text="EXIT" textAlignment="CENTER" textFill="#944110" />
+         <Text fx:id="text_team3" layoutX="92.0" layoutY="530.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Team 3" textAlignment="CENTER">
+             <font>
+                 <Font name="Arial Bold" size="13.0" />
+             </font>
+         </Text>
+   <Text fx:id="text_team311" layoutX="94.0" layoutY="181.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Team 1" textAlignment="CENTER">
+      <font>
+         <Font name="Calibri Bold" size="15.0" />
+      </font>
+   </Text>
+   <Text fx:id="text_team31" layoutX="89.0" layoutY="364.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Team 2" textAlignment="CENTER">
+      <font>
+         <Font name="Calibri Bold" size="15.0" />
+      </font>
+   </Text>
+         <Circle fill="#fff6e2" layoutX="117.0" layoutY="120.0" radius="40.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+      <effect>
+         <InnerShadow choke="0.07" height="10.0" offsetY="5.0" radius="4.5" width="10.0">
+            <color>
+               <Color red="0.5803921818733215" green="0.2549019753932953" blue="0.062745101749897" />
+            </color>
+         </InnerShadow>
+      </effect></Circle>
+         <Circle fill="#fff6e2" layoutX="114.0" layoutY="304.0" radius="40.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+      <effect>
+         <InnerShadow height="10.0" offsetY="5.0" radius="4.5" width="10.0">
+            <color>
+               <Color red="0.5803921818733215" green="0.2549019753932953" blue="0.062745101749897" />
+            </color>
+         </InnerShadow>
+      </effect></Circle>
+         <Circle fill="#fff6e2" layoutX="114.0" layoutY="472.0" radius="40.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+      <effect>
+         <InnerShadow height="10.0" offsetY="5.0" radius="4.5" width="10.0">
+            <color>
+               <Color red="0.5803921818733215" green="0.2549019753932953" blue="0.062745101749897" />
+            </color>
+         </InnerShadow>
+      </effect></Circle>
+         <Rectangle arcHeight="5.0" fill="WHITE" height="30.0" layoutX="65.0" layoutY="194.0" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="0.0" width="99.0" />
+         <Button fx:id="PBPlus1" accessibleRole="INCREMENT_BUTTON" layoutX="151.0" layoutY="194.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="31.0" prefWidth="31.0" style="-fx-background-color: #199753;" text="+" textFill="WHITE" wrapText="true">
+             <font>
+                 <Font name="Calibri" size="15.0" />
+             </font>
+         </Button>
+         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="30.0" layoutX="64.0" layoutY="375.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="99.0" />
+         <Button fx:id="PBPlus2" layoutX="148.0" layoutY="375.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="31.0" prefWidth="31.0" style="-fx-background-color: #199753;" text="+" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+             <font>
+                 <Font name="System Bold" size="15.0" />
+             </font>
+             <cursor>
+                 <Cursor fx:constant="HAND" />
+             </cursor>
+         </Button>
+         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="30.0" layoutX="65.0" layoutY="542.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="99.0" />
+         <Button fx:id="PBPlus3" layoutX="148.0" layoutY="541.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="31.0" prefWidth="31.0" style="-fx-background-color: #199753;" text="+" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+             <font>
+                 <Font name="System Bold" size="15.0" />
+             </font>
+             <cursor>
+                 <Cursor fx:constant="HAND" />
+             </cursor>
+         </Button>
+         <Button fx:id="PBMinus2" layoutX="49.0" layoutY="375.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="31.0" prefWidth="31.0" style="-fx-background-color: #971919;" text="-" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+             <font>
+                 <Font name="Calibri Bold" size="15.0" />
+             </font>
+             <cursor>
+                 <Cursor fx:constant="HAND" />
+             </cursor>
+         </Button>
+   <Button fx:id="PBMinus1" accessibleRole="INCREMENT_BUTTON" layoutX="50.0" layoutY="194.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="31.0" prefWidth="31.0" style="-fx-background-color: #971919;" text="-" textFill="WHITE" wrapText="true">
+      <font>
+         <Font name="Calibri Bold" size="15.0" />
+      </font>
+   </Button>
+   <Button fx:id="PBMinus3" layoutX="50.0" layoutY="542.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="31.0" prefWidth="31.0" style="-fx-background-color: #971919;" text="-" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+      <font>
+         <Font name="Calibri Bold" size="15.0" />
+      </font>
+      <cursor>
+         <Cursor fx:constant="HAND" />
+      </cursor>
+   </Button>
+   <HBox alignment="CENTER" fillHeight="false" layoutX="237.0" layoutY="95.0" prefHeight="479.0" prefWidth="834.0" scaleShape="false">
+      <children>
+         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff00" height="200.0" stroke="TRANSPARENT" strokeType="INSIDE" width="21.0" />
+               <VBox alignment="CENTER" prefHeight="479.0" prefWidth="139.0">
+            <VBox prefHeight="200.0" prefWidth="100.0">
+               <children>
+                         <Button fx:id="cat1_100" mnemonicParsing="false" onAction="#questionButtonAction" prefHeight="100.0" prefWidth="155.0" text="100">
+                             <font>
+                                 <Font size="25.0" />
+                             </font>
+                             <cursor>
+                                 <Cursor fx:constant="HAND" />
+                             </cursor>
+                         </Button>
+                         <Button fx:id="cat1_200" mnemonicParsing="false" prefHeight="100.0" prefWidth="155.0" text="200">
+                             <font>
+                                 <Font size="25.0" />
+                             </font>
+                             <cursor>
+                                 <Cursor fx:constant="HAND" />
+                             </cursor>
+                         </Button>
+               </children>
+            </VBox>
+                   <Button fx:id="cat1_300" mnemonicParsing="false" prefHeight="100.0" prefWidth="155.0" text="300">
+                       <font>
+                           <Font size="25.0" />
+                       </font>
+                       <cursor>
+                           <Cursor fx:constant="HAND" />
+                       </cursor>
+                   </Button>
+                   <Button fx:id="cat1_400" mnemonicParsing="false" prefHeight="100.0" prefWidth="155.0" text="400">
+                       <font>
+                           <Font size="25.0" />
+                       </font>
+                       <cursor>
+                           <Cursor fx:constant="HAND" />
+                       </cursor>
+                   </Button>
+                   <Button fx:id="cat1_500" mnemonicParsing="false" prefHeight="100.0" prefWidth="155.0" text="500">
+                       <font>
+                           <Font size="25.0" />
+                       </font>
+                       <cursor>
+                           <Cursor fx:constant="HAND" />
+                       </cursor>
+                   </Button>
+               </VBox>
+         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff00" height="200.0" layoutX="83.0" layoutY="205.0" stroke="TRANSPARENT" strokeType="INSIDE" width="21.0" />
+               <VBox alignment="CENTER" prefHeight="667.0" prefWidth="121.0">
+                   <Button fx:id="cat2_100" mnemonicParsing="false" prefHeight="100.0" prefWidth="155.0" text="100">
+                       <font>
+                           <Font size="25.0" />
+                       </font>
+                       <cursor>
+                           <Cursor fx:constant="HAND" />
+                       </cursor>
+                   </Button>
+                   <Button fx:id="cat2_200" mnemonicParsing="false" prefHeight="100.0" prefWidth="155.0" text="200">
+                       <font>
+                           <Font size="25.0" />
+                       </font>
+                       <cursor>
+                           <Cursor fx:constant="HAND" />
+                       </cursor>
+                   </Button>
+                   <Button fx:id="cat2_300" mnemonicParsing="false" prefHeight="93.0" prefWidth="197.0" text="300">
+                       <font>
+                           <Font size="25.0" />
+                       </font>
+                       <cursor>
+                           <Cursor fx:constant="HAND" />
+                       </cursor>
+                   </Button>
+                   <Button fx:id="cat2_400" mnemonicParsing="false" prefHeight="100.0" prefWidth="155.0" text="400">
+                       <font>
+                              <Font size="25.0" />
+                       </font>
+                       <cursor>
+                           <Cursor fx:constant="HAND" />
+                       </cursor>
+                   </Button>
+                   <Button fx:id="cat2_500" mnemonicParsing="false" prefHeight="100.0" prefWidth="155.0" text="500">
+                       <font>
+                           <Font size="25.0" />
+                       </font>
+                       <cursor>
+                           <Cursor fx:constant="HAND" />
+                       </cursor>
+                   </Button>
+               </VBox>
+         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff00" height="200.0" layoutX="244.0" layoutY="205.0" stroke="TRANSPARENT" strokeType="INSIDE" width="21.0" />
+               <VBox alignment="CENTER" prefHeight="693.0" prefWidth="121.0">
+                   <Button fx:id="cat3_100" mnemonicParsing="false" prefHeight="100.0" prefWidth="155.0" text="100">
+                       <font>
+                           <Font size="25.0" />
+                       </font>
+                       <cursor>
+                           <Cursor fx:constant="HAND" />
+                       </cursor>
+                   </Button>
+                   <Button fx:id="cat3_200" mnemonicParsing="false" prefHeight="100.0" prefWidth="155.0" text="200">
+                       <font>
+                           <Font size="25.0" />
+                       </font>
+                       <cursor>
+                           <Cursor fx:constant="HAND" />
+                       </cursor>
+                   </Button>
+                   <Button fx:id="cat3_300" mnemonicParsing="false" prefHeight="100.0" prefWidth="155.0" text="300">
+                       <font>
+                           <Font size="25.0" />
+                       </font>
+                       <cursor>
+                           <Cursor fx:constant="HAND" />
+                       </cursor>
+                   </Button>
+                   <Button fx:id="cat3_400" mnemonicParsing="false" prefHeight="100.0" prefWidth="155.0" text="400">
+                       <font>
+                           <Font size="25.0" />
+                       </font>
+                       <cursor>
+                           <Cursor fx:constant="HAND" />
+                       </cursor>
+                   </Button>
+                   <Button fx:id="cat3_500" mnemonicParsing="false" prefHeight="100.0" prefWidth="155.0" text="500">
+                       <font>
+                           <Font size="25.0" />
+                       </font>
+                       <cursor>
+                           <Cursor fx:constant="HAND" />
+                       </cursor>
+                   </Button>
+               </VBox>
+         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff00" height="200.0" layoutX="376.0" layoutY="205.0" stroke="TRANSPARENT" strokeType="INSIDE" width="21.0" />
+               <VBox alignment="CENTER" prefHeight="681.0" prefWidth="121.0">
+                   <Button fx:id="cat4_100" mnemonicParsing="false" prefHeight="100.0" prefWidth="155.0" text="100">
+                       <font>
+                           <Font size="25.0" />
+                       </font>
+                       <cursor>
+                           <Cursor fx:constant="HAND" />
+                       </cursor>
+                   </Button>
+                   <Button fx:id="cat4_200" mnemonicParsing="false" prefHeight="100.0" prefWidth="155.0" text="200">
+                       <font>
+                           <Font size="25.0" />
+                       </font>
+                       <cursor>
+                           <Cursor fx:constant="HAND" />
+                       </cursor>
+                   </Button>
+                   <Button fx:id="cat4_300" mnemonicParsing="false" prefHeight="100.0" prefWidth="155.0" text="300">
+                       <font>
+                           <Font size="25.0" />
+                       </font>
+                       <cursor>
+                           <Cursor fx:constant="HAND" />
+                       </cursor>
+                   </Button>
+                   <Button fx:id="cat4_400" mnemonicParsing="false" prefHeight="100.0" prefWidth="155.0" text="400">
+                       <font>
+                           <Font size="25.0" />
+                       </font>
+                       <cursor>
+                           <Cursor fx:constant="HAND" />
+                       </cursor>
+                   </Button>
+                   <Button fx:id="cat4_500" mnemonicParsing="false" prefHeight="100.0" prefWidth="155.0" text="500">
+                       <font>
+                           <Font size="25.0" />
+                       </font>
+                       <cursor>
+                           <Cursor fx:constant="HAND" />
+                       </cursor>
+                   </Button>
+               </VBox>
+         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff00" height="200.0" layoutX="507.0" layoutY="205.0" stroke="TRANSPARENT" strokeType="INSIDE" width="21.0" />
+               <VBox alignment="CENTER" prefHeight="732.0" prefWidth="154.0">
+                   <Button fx:id="cat5_100" mnemonicParsing="false" prefHeight="100.0" prefWidth="155.0" text="100">
+                       <font>
+                           <Font size="25.0" />
+                       </font>
+                       <cursor>
+                           <Cursor fx:constant="HAND" />
+                       </cursor>
+                   </Button>
+                   <Button fx:id="cat5_200" mnemonicParsing="false" prefHeight="100.0" prefWidth="155.0" text="200">
+                       <font>
+                           <Font size="25.0" />
+                       </font>
+                       <cursor>
+                           <Cursor fx:constant="HAND" />
+                       </cursor>
+                   </Button>
+                   <Button fx:id="cat5_300" mnemonicParsing="false" prefHeight="100.0" prefWidth="155.0" text="300">
+                       <font>
+                           <Font size="25.0" />
+                       </font>
+                       <cursor>
+                           <Cursor fx:constant="HAND" />
+                       </cursor>
+                   </Button>
+                   <Button fx:id="cat5_400" mnemonicParsing="false" prefHeight="100.0" prefWidth="155.0" text="400">
+                       <font>
+                           <Font size="25.0" />
+                       </font>
+                       <cursor>
+                           <Cursor fx:constant="HAND" />
+                       </cursor>
+                   </Button>
+                   <Button fx:id="cat5_500" mnemonicParsing="false" prefHeight="100.0" prefWidth="155.0" text="500">
+                       <font>
+                           <Font size="25.0" />
+                       </font>
+                       <cursor>
+                           <Cursor fx:constant="HAND" />
+                       </cursor>
+                   </Button>
+               </VBox>
+         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff00" height="200.0" layoutX="639.0" layoutY="205.0" stroke="TRANSPARENT" strokeType="INSIDE" width="21.0" />
+      </children>
+   </HBox>
+   <HBox alignment="CENTER" layoutX="232.0" layoutY="14.0" prefHeight="66.0" prefWidth="844.0" scaleShape="false">
+      <children>
+               <Text fx:id="catagory1" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Category 1" textAlignment="CENTER" wrappingWidth="150.0">
+                   <font>
+                       <Font size="25.0" />
+                   </font>
+               </Text>
+               <Text fx:id="catagory2" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Category 2" textAlignment="CENTER" wrappingWidth="150.0">
+                   <font>
+                       <Font size="25.0" />
+                   </font>
+               </Text>
+               <Text fx:id="catagory3" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Category 3" textAlignment="CENTER" wrappingWidth="150.0">
+                   <font>
+                       <Font size="25.0" />
+                   </font>
+               </Text>
+               <Text fx:id="catagory4" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Category 4" textAlignment="CENTER" wrappingWidth="150.0">
+                   <font>
+                       <Font size="25.0" />
+                   </font>
+               </Text>
+               <Text fx:id="catagory5" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Category 5" textAlignment="CENTER" wrappingWidth="150.0">
+                   <font>
+                       <Font size="25.0" />
+                   </font>
+               </Text>
+      </children>
+   </HBox>
+         <Text fx:id="textScore1" layoutX="82.0" layoutY="396.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" textAlignment="CENTER" wrappingWidth="63.99999999999997">
+             <font>
+                 <Font name="Calibri Bold" size="15.0" />
+             </font>
+         </Text>
+   <Text fx:id="textScore11" layoutX="81.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" textAlignment="CENTER" wrappingWidth="71.33333333333331">
+      <font>
+         <Font name="Calibri Bold" size="15.0" />
+      </font>
+   </Text>
+   <Text fx:id="textScore12" layoutX="78.0" layoutY="562.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" textAlignment="CENTER" wrappingWidth="71.33333333333331">
+      <font>
+         <Font name="Calibri Bold" size="15.0" />
+      </font>
+   </Text>
+</AnchorPane>

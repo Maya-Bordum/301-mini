@@ -8,7 +8,7 @@
 <?import javafx.scene.shape.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.frontendclient.Main">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="frontendminiproject.frontendminiprojectdina.Main">
          <Rectangle id="background" arcHeight="5.0" arcWidth="5.0" height="600" stroke="#974c4c" strokeType="INSIDE" strokeWidth="0.0" width="1080">
       <fill>
          <LinearGradient endX="0.5285714285714286" endY="1.0" startX="0.47619047619047616">

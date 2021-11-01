@@ -1,4 +1,4 @@
-package com.example.frontendclient;
+package frontendminiproject.frontendminiprojectdina;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;

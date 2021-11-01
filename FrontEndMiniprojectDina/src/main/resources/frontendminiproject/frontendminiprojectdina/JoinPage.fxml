@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.*?>
 <?import javafx.scene.effect.*?>
 <?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
@@ -8,7 +7,7 @@
 <?import javafx.scene.shape.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="600.0" prefWidth="1080.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.frontendclient.Main">
+<AnchorPane prefHeight="600.0" prefWidth="1080.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="frontendminiproject.frontendminiprojectdina.Main">
     <ImageView fitHeight="600.0" fitWidth="1080.0" pickOnBounds="true">
         <image>
             <Image url="https://media.discordapp.net/attachments/889864141534285864/902528602619387904/JeopartyBG.png?width=1135&amp;height=638" />
@@ -55,19 +54,7 @@
          <Font name="Arial Bold" size="48.0" />
       </font>
    </Text>
-   <Button layoutX="839.0" layoutY="470.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="113.0" style="-fx-background-color: #fff6e2;" text="START" textAlignment="CENTER" textFill="#471500">
-      <font>
-         <Font name="Arial Bold" size="18.0" />
-      </font>
-      <effect>
-         <DropShadow height="19.02" offsetY="5.0" radius="4.255" spread="0.68" width="0.0">
-            <color>
-               <Color red="0.3464912176132202" green="0.11549707502126694" />
-            </color>
-         </DropShadow>
-      </effect>
-   </Button>
-   <Text fill="#5d1700" layoutX="134.0" layoutY="397.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Host" textAlignment="CENTER">
+   <Text fill="#5d1700" layoutX="134.0" layoutY="387.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Host" textAlignment="CENTER">
       <font>
          <Font name="Arial Bold" size="36.0" />
       </font>
