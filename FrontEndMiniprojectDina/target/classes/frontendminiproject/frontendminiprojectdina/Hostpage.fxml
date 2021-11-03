@@ -40,7 +40,7 @@
          </InnerShadow>
       </effect>
    </Circle>
-   <Text fill="#5d1700" layoutX="82.0" layoutY="343.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Player 1" textAlignment="CENTER">
+   <Text fx:id="playerOne" fill="#5d1700" layoutX="82.0" layoutY="343.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Player 1" textAlignment="CENTER">
       <font>
          <Font name="Arial Bold" size="48.0" />
       </font>
@@ -70,6 +70,16 @@
    <Text fill="#5d1700" layoutX="134.0" layoutY="397.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Host" textAlignment="CENTER">
       <font>
          <Font name="Arial Bold" size="36.0" />
+      </font>
+   </Text>
+   <Text fill="#5d1700" layoutX="269.0" layoutY="83.0" strokeType="OUTSIDE" strokeWidth="0.0" text="YOU ARE THE HOST!" textAlignment="CENTER">
+      <font>
+         <Font name="Arial Bold" size="48.0" />
+      </font>
+   </Text>
+   <Text fill="#5d1700" layoutX="335.0" layoutY="111.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Press start when all players are ready" textAlignment="CENTER">
+      <font>
+         <Font name="Arial Bold" size="20.0" />
       </font>
    </Text>
 </AnchorPane>

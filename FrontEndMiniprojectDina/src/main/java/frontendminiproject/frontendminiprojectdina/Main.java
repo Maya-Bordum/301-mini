@@ -9,6 +9,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
+import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
@@ -27,12 +28,12 @@ public class Main extends Application
     @FXML
     private Button joinButton, connectButton, submitButton;
     @FXML
-    private TextField ipField, portField, nameField;
+    private TextField ipField, portField, nameField, playerOneTF, playerTwoName;
     DataOutputStream output;
     DataInputStream input;
-    Socket clientSocket;
-    Boolean isHost = false;
-
+    static Socket clientSocket;
+    static Boolean isHost = false;
+    
 
     //___________________________ Main Start Method _________________________
 
@@ -88,24 +89,29 @@ public class Main extends Application
     @FXML
     private void goToLobby(ActionEvent event) throws Exception
     {
+
         Stage stage = (Stage) submitButton.getScene().getWindow();
         if (event.getSource() == submitButton && !isHost)
         {
+            System.out.println("loading host not");
             FXMLLoader joinPage = new FXMLLoader(Main.class.getResource("JoinPage.fxml"));
             Scene joinScene = new Scene(joinPage.load(), 1080, 600);
             stage.setScene(joinScene);
             stage.show();
+            sendNameInput();
         }
 
         if (event.getSource() == submitButton && isHost)
         {
+            System.out.println("loading host plage");
             FXMLLoader hostPage = new FXMLLoader(Main.class.getResource("HostPage.fxml"));
             Scene hostScene = new Scene(hostPage.load(), 1080, 600);
             stage.setScene(hostScene);
             stage.show();
+            sendNameInput();
+
         }
 
-        sendNameInput();
     }
 
     //____________________________ Other important methods _______________________
