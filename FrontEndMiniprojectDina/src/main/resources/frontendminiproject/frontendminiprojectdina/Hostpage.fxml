@@ -40,11 +40,6 @@
          </InnerShadow>
       </effect>
    </Circle>
-   <Text fill="#5d1700" layoutX="82.0" layoutY="343.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Player 1" textAlignment="CENTER">
-      <font>
-         <Font name="Arial Bold" size="48.0" />
-      </font>
-   </Text>
    <Text fill="#5d1700" layoutX="422.0" layoutY="550.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Player 2" textAlignment="CENTER">
       <font>
          <Font name="Arial Bold" size="48.0" />
@@ -55,7 +50,7 @@
          <Font name="Arial Bold" size="48.0" />
       </font>
    </Text>
-   <Button layoutX="839.0" layoutY="470.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="113.0" style="-fx-background-color: #fff6e2;" text="START" textAlignment="CENTER" textFill="#471500">
+   <Button fx:id="startButton" layoutX="839.0" layoutY="470.0" mnemonicParsing="false" onAction="#handleButtonPresses" prefHeight="40.0" prefWidth="113.0" style="-fx-background-color: #fff6e2;" text="START" textAlignment="CENTER" textFill="#471500">
       <font>
          <Font name="Arial Bold" size="18.0" />
       </font>
@@ -72,4 +67,9 @@
          <Font name="Arial Bold" size="36.0" />
       </font>
    </Text>
+   <Label fx:id="hostPlayerOneTF" layoutX="82.0" layoutY="300.0" text="Player 1" textFill="#5d1700">
+      <font>
+         <Font name="Arial Bold" size="48.0" />
+      </font>
+   </Label>
 </AnchorPane>

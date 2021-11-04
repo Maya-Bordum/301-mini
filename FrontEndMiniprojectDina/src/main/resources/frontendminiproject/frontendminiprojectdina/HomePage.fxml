@@ -8,17 +8,13 @@
 <?import javafx.scene.text.*?>
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1080.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="frontendminiproject.frontendminiprojectdina.Main">
-   <ImageView fitHeight="600.0" fitWidth="1080.0" pickOnBounds="true">
-      <image>
-         <Image url="https://media.discordapp.net/attachments/889864141534285864/902528602619387904/JeopartyBG.png?width=1135&amp;height=638" />
-      </image>
-   </ImageView>
-    <ImageView fx:id="jpLogo" fitHeight="196.0" fitWidth="645.0" layoutX="218.0" layoutY="163.0" pickOnBounds="true" preserveRatio="true">
-        <image>
-            <Image url="https://media.discordapp.net/attachments/889864141534285864/902134482801414144/H1jeoparty-logo.png?width=720&amp;height=119" />
-        </image>
+    <ImageView fitHeight="600.0" fitWidth="1080.0" pickOnBounds="true">
+        <Image url="https://media.discordapp.net/attachments/889864141534285864/902528602619387904/JeopartyBG.png?width=1135&amp;height=638" />
     </ImageView>
-    <Button fx:id="joinButton" alignment="CENTER" contentDisplay="CENTER" layoutX="416.0" layoutY="405.0" onAction="#joinButtonPress" prefHeight="66.0" prefWidth="249.0" style="-fx-background-color: #FFF6E2;" text="Join Game" textFill="#944110">
+    <ImageView fx:id="jpLogo" fitHeight="196.0" fitWidth="645.0" layoutX="218.0" layoutY="163.0" pickOnBounds="true" preserveRatio="true">
+        <Image url="https://media.discordapp.net/attachments/889864141534285864/902134482801414144/H1jeoparty-logo.png?width=720&amp;height=119" />
+    </ImageView>
+    <Button fx:id="joinButton" alignment="CENTER" contentDisplay="CENTER" layoutX="416.0" layoutY="405.0" onAction="#handleButtonPresses" prefHeight="66.0" prefWidth="249.0" style="-fx-background-color: #FFF6E2;" text="Join Game" textFill="#944110">
         <font>
             <Font name="Arial Bold" size="30.0" />
         </font>

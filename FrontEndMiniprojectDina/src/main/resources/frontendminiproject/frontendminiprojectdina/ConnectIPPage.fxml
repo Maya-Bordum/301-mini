@@ -13,7 +13,7 @@
          <Image url="https://media.discordapp.net/attachments/889864141534285864/902528602619387904/JeopartyBG.png?width=1135&amp;height=638" />
       </image>
    </ImageView>
-    <Button fx:id="connectButton" alignment="CENTER" contentDisplay="CENTER" layoutX="416.0" layoutY="405.0" onAction="#connectButtonPressed" prefHeight="66.0" prefWidth="249.0" style="-fx-background-color: #FFF6E2;" text="Connect" textFill="#944110">
+    <Button fx:id="connectButton" alignment="CENTER" contentDisplay="CENTER" layoutX="416.0" layoutY="405.0" onAction="#handleButtonPresses" prefHeight="66.0" prefWidth="249.0" style="-fx-background-color: #FFF6E2;" text="Connect" textFill="#944110">
         <font>
             <Font name="Arial Bold" size="30.0" />
         </font>

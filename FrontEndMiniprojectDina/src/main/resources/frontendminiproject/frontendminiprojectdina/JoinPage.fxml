@@ -9,9 +9,7 @@
 
 <AnchorPane prefHeight="600.0" prefWidth="1080.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="frontendminiproject.frontendminiprojectdina.Main">
     <ImageView fitHeight="600.0" fitWidth="1080.0" pickOnBounds="true">
-        <image>
-            <Image url="https://media.discordapp.net/attachments/889864141534285864/902528602619387904/JeopartyBG.png?width=1135&amp;height=638" />
-        </image>
+        <Image url="https://media.discordapp.net/attachments/889864141534285864/902528602619387904/JeopartyBG.png?width=1135&amp;height=638" />
     </ImageView>
     <Circle fill="#fff6e2" layoutX="174.0" layoutY="177.0" radius="97.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
         <effect>
@@ -39,7 +37,7 @@
          </InnerShadow>
       </effect>
    </Circle>
-   <Text fill="#5d1700" layoutX="82.0" layoutY="343.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Player 1" textAlignment="CENTER">
+   <Text fx:id="joinPlayerOneTF" fill="#5d1700" layoutX="82.0" layoutY="343.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Player 1" textAlignment="CENTER">
       <font>
          <Font name="Arial Bold" size="48.0" />
       </font>

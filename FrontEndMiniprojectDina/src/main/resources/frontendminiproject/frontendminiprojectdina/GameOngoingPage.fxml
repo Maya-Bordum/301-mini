@@ -28,7 +28,7 @@
       </fill></Rectangle>
    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c15d21" height="93.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1080.0" />
          <Rectangle id="teamBackground" fill="#fb7c2c" height="600.0" layoutX="-13.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="243.0" />
-         <Button fx:id="backButtonJeoparty" alignment="CENTER" layoutX="11.0" layoutY="15.0" onAction="#handleButtonAction" prefHeight="23.0" prefWidth="54.0" style="-fx-background-color: #FFF6E2;" text="EXIT" textAlignment="CENTER" textFill="#944110" />
+         <Button fx:id="backButtonJeoparty" alignment="CENTER" layoutX="11.0" layoutY="15.0" prefHeight="23.0" prefWidth="54.0" style="-fx-background-color: #FFF6E2;" text="EXIT" textAlignment="CENTER" textFill="#944110" />
          <Text fx:id="text_team3" layoutX="92.0" layoutY="530.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Team 3" textAlignment="CENTER">
              <font>
                  <Font name="Arial Bold" size="13.0" />
@@ -69,13 +69,13 @@
          </InnerShadow>
       </effect></Circle>
          <Rectangle arcHeight="5.0" fill="WHITE" height="30.0" layoutX="65.0" layoutY="194.0" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="0.0" width="99.0" />
-         <Button fx:id="PBPlus1" accessibleRole="INCREMENT_BUTTON" layoutX="151.0" layoutY="194.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="31.0" prefWidth="31.0" style="-fx-background-color: #199753;" text="+" textFill="WHITE" wrapText="true">
+         <Button fx:id="PBPlus1" accessibleRole="INCREMENT_BUTTON" layoutX="151.0" layoutY="194.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="31.0" style="-fx-background-color: #199753;" text="+" textFill="WHITE" wrapText="true">
              <font>
                  <Font name="Calibri" size="15.0" />
              </font>
          </Button>
          <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="30.0" layoutX="64.0" layoutY="375.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="99.0" />
-         <Button fx:id="PBPlus2" layoutX="148.0" layoutY="375.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="31.0" prefWidth="31.0" style="-fx-background-color: #199753;" text="+" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <Button fx:id="PBPlus2" layoutX="148.0" layoutY="375.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="31.0" style="-fx-background-color: #199753;" text="+" textAlignment="CENTER" textFill="WHITE" wrapText="true">
              <font>
                  <Font name="System Bold" size="15.0" />
              </font>
@@ -84,7 +84,7 @@
              </cursor>
          </Button>
          <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="30.0" layoutX="65.0" layoutY="542.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="99.0" />
-         <Button fx:id="PBPlus3" layoutX="148.0" layoutY="541.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="31.0" prefWidth="31.0" style="-fx-background-color: #199753;" text="+" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <Button fx:id="PBPlus3" layoutX="148.0" layoutY="541.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="31.0" style="-fx-background-color: #199753;" text="+" textAlignment="CENTER" textFill="WHITE" wrapText="true">
              <font>
                  <Font name="System Bold" size="15.0" />
              </font>
@@ -92,7 +92,7 @@
                  <Cursor fx:constant="HAND" />
              </cursor>
          </Button>
-         <Button fx:id="PBMinus2" layoutX="49.0" layoutY="375.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="31.0" prefWidth="31.0" style="-fx-background-color: #971919;" text="-" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <Button fx:id="PBMinus2" layoutX="49.0" layoutY="375.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="31.0" style="-fx-background-color: #971919;" text="-" textAlignment="CENTER" textFill="WHITE" wrapText="true">
              <font>
                  <Font name="Calibri Bold" size="15.0" />
              </font>
@@ -100,12 +100,12 @@
                  <Cursor fx:constant="HAND" />
              </cursor>
          </Button>
-   <Button fx:id="PBMinus1" accessibleRole="INCREMENT_BUTTON" layoutX="50.0" layoutY="194.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="31.0" prefWidth="31.0" style="-fx-background-color: #971919;" text="-" textFill="WHITE" wrapText="true">
+   <Button fx:id="PBMinus1" accessibleRole="INCREMENT_BUTTON" layoutX="50.0" layoutY="194.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="31.0" style="-fx-background-color: #971919;" text="-" textFill="WHITE" wrapText="true">
       <font>
          <Font name="Calibri Bold" size="15.0" />
       </font>
    </Button>
-   <Button fx:id="PBMinus3" layoutX="50.0" layoutY="542.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="31.0" prefWidth="31.0" style="-fx-background-color: #971919;" text="-" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+   <Button fx:id="PBMinus3" layoutX="50.0" layoutY="542.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="31.0" style="-fx-background-color: #971919;" text="-" textAlignment="CENTER" textFill="WHITE" wrapText="true">
       <font>
          <Font name="Calibri Bold" size="15.0" />
       </font>
@@ -119,7 +119,7 @@
                <VBox alignment="CENTER" prefHeight="479.0" prefWidth="139.0">
             <VBox prefHeight="200.0" prefWidth="100.0">
                <children>
-                         <Button fx:id="cat1_100" mnemonicParsing="false" onAction="#questionButtonAction" prefHeight="100.0" prefWidth="155.0" text="100">
+                         <Button fx:id="cat1_100" mnemonicParsing="false"  prefHeight="100.0" prefWidth="155.0" text="100">
                              <font>
                                  <Font size="25.0" />
                              </font>
